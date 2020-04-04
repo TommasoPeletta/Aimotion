@@ -1,4 +1,29 @@
-# Aimotion
-Multimodale and Affective  Aim Trainer Game
 
-Jonathan Lo et Tommaso Peletta
+# Aimotion
+
+Multimodale and Affective Aim Trainer Game
+
+# Description
+
+
+### Project members
+
+* Tommaso Peletta
+* Jonathan Lo
+
+
+
+### References :
+
+
+Heartbeat measurment :
+```
+https://github.com/habom2310/Heart-rate-measurement-using-camera
+```
+
+
+Gaze  estimation :
+```
+https://github.com/swook/GazeML
+```
+
