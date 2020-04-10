@@ -1,5 +1,5 @@
 
-# Aimotion
+# AIMOTION
 
 Multimodale and Affective Aim Trainer Game
 
