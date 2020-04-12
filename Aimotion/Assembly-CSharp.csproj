@@ -54,7 +54,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\camera_controller.cs" />
+     <Compile Include="Assets\Scripts\CredToMenu.cs" />
      <Compile Include="Assets\Scripts\GunFire.cs" />
+     <Compile Include="Assets\Scripts\MainMenuOptions.cs" />
+     <Compile Include="Assets\Scripts\PauseGame.cs" />
+     <Compile Include="Assets\Scripts\SplashToMenu.cs" />
      <None Include="Assets\Sci-Fi Styled Modular Pack\Readme.txt" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>/home/jonathanlo/Documents/aimotion/Aimotion/Aimotion/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
