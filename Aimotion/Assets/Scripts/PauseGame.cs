@@ -23,6 +23,7 @@ public class PauseGame : MonoBehaviour
 			ThePlayer.GetComponent<FirstPersonController>().enabled = true;
 			Paused = false;
 			Time.timeScale = 1;
+			Cursor.visible = false;
 		}
 	}
         
