@@ -13,12 +13,14 @@ public class GunFire : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+	if(GlobalAmmo.LoadedAmmo>=1){
         if(Input.GetButtonDown("Fire1")){
 		AudioSource gunsound = GetComponent<AudioSource>();
 		gunsound.Play();
 		Animation gunshot = GetComponent<Animation>();
 		gunshot.Play("GunShot");
+		GlobalAmmo.LoadedAmmo -= 1;
 	}
-
+}
     }
 }
