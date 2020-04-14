@@ -8,6 +8,7 @@ public class PauseGame : MonoBehaviour
 	
 	public bool Paused = false;
 	public GameObject ThePlayer;
+	public GameObject PauseMenu;
 
     // Update is called once per frame
     void Update()
@@ -16,16 +17,23 @@ public class PauseGame : MonoBehaviour
 		if (Paused == false){
 			Time.timeScale = 0;
 			Paused = true;
+			PauseMenu.SetActive(true);
 			ThePlayer.GetComponent<FirstPersonController>().enabled = false;
 			Cursor.visible = true;
 		}
 		else{
 			ThePlayer.GetComponent<FirstPersonController>().enabled = true;
 			Paused = false;
+			PauseMenu.SetActive(false);
 			Time.timeScale = 1;
-			Cursor.visible = false;
 		}
 	}
         
     }
+	public void UnpausedGame(){
+		ThePlayer.GetComponent<FirstPersonController>().enabled = true;
+		Paused = false;
+		PauseMenu.SetActive(false);
+		Time.timeScale = 1;
+	}
 }
