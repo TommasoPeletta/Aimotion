@@ -432,20 +432,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Sci-Fi Styled Modular Pack/Prefabs/Machines
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Sci-Fi Styled Modular Pack/Prefabs/Machines
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /home/jonathanlo/Documents/aimotion/Aimotion/Aimotion
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 36280000
-    m_LastClickedID: 10294
-    m_ExpandedIDs: 0000000036280000ac2b0000002c0000082e00002a2e0000322e0000f22f0000ac31000000ca9a3b
+    scrollPos: {x: 0, y: 239}
+    m_SelectedIDs: be2a0000
+    m_LastClickedID: 10942
+    m_ExpandedIDs: 00000000362800000e2b0000ac2b0000002c0000082e00002a2e0000322e0000f22f0000ac31000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -591,10 +591,10 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
+      scrollPos: {x: 0, y: 32}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 28edffff7cf7ffff4cf9ffffbefaffffdcfbffff8c380000
+      m_ExpandedIDs: dcfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -610,7 +610,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 4}
+        m_ClientGUIView: {fileID: 0}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -650,9 +650,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.6449139, y: 10.319475, z: 7.912536}
+    m_Target: {x: 6.209118, y: 30.681625, z: 28.074486}
     speed: 2
-    m_Value: {x: -1.6449139, y: 10.319475, z: 7.912536}
+    m_Value: {x: 6.209118, y: 30.681625, z: 28.074486}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -680,13 +680,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.15532652, y: 0.23977984, z: -0.038896427, w: 0.9575314}
+    m_Target: {x: 0.45998693, y: 0.3756651, z: -0.22359058, w: 0.7728487}
     speed: 2
-    m_Value: {x: 0.15532652, y: 0.23977984, z: -0.038896427, w: 0.9575314}
+    m_Value: {x: 0.45998693, y: 0.3756651, z: -0.22359058, w: 0.7728487}
   m_Size:
-    m_Target: 6.690217
+    m_Target: 75.84606
     speed: 2
-    m_Value: 6.690217
+    m_Value: 75.84606
   m_Ortho:
     m_Target: 0
     speed: 2
