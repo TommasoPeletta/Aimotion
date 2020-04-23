@@ -10,7 +10,7 @@ public class EnemyScript : MonoBehaviour
         
     }
 
- public int EnemyHealth = 10;
+ public int EnemyHealth = 5;
 
  void DeductPoints (int DamageAmount) {
   EnemyHealth -= DamageAmount;
@@ -19,6 +19,7 @@ public class EnemyScript : MonoBehaviour
  void Update () {
   if (EnemyHealth <= 0) {
    Destroy(gameObject);
+	Spawner.targetSpawned -= 1;
   }
  }
 }
