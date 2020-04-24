@@ -10,6 +10,7 @@ public float ClipCount;
 public float ReserveCount;
 public float ReloadAvailable;
 public GunFire GunComponent;
+    public static bool reload = true;
 
 void Start () {
  GunComponent = GetComponent<GunFire>();
@@ -38,8 +39,9 @@ void Update () {
     GlobalAmmo.CurrentAmmo -= ReloadAvailable;
     ActionReload();
    }
-  }
- StartCoroutine(EnableScripts());
+     StartCoroutine(EnableScripts());
+            }
+ 
 
  }
 }
@@ -47,13 +49,13 @@ void Update () {
 IEnumerator EnableScripts () {
  yield return new WaitForSeconds(1.1f);
  GunComponent.enabled=true;
- MechanicsObject.SetActive(true);
+        reload = true;
 }
 
 void ActionReload () {
  GunComponent.enabled=false;
- MechanicsObject.SetActive(false);
  ReloadSound.Play();
  GetComponent<Animation>().Play("HandgunReload");
+        reload = false;
 }
 }

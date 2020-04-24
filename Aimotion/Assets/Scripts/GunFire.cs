@@ -6,6 +6,7 @@ public class GunFire : MonoBehaviour
 {
 	public HandgunRealoding ReloadingComponent;
 	public static bool fireing = true;
+    public bool info;
 
     // Start is called before the first frame update
     void Start()
@@ -16,7 +17,8 @@ public class GunFire : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {	
+    {
+        info = fireing;
 	if(GlobalAmmo.LoadedAmmo>=1){
         if(Input.GetButtonDown("Fire1")){
 		AudioSource gunsound = GetComponent<AudioSource>();
@@ -24,7 +26,7 @@ public class GunFire : MonoBehaviour
 		Animation gunshot = GetComponent<Animation>();
 		gunshot.Play("GunShot");
 		GlobalAmmo.LoadedAmmo -= 1;
-		ActionReload();
+		Actionfire();
 		StartCoroutine(EnableScripts());
 		
 	}
@@ -37,7 +39,7 @@ IEnumerator EnableScripts () {
 		fireing = true;
 
 }
-void ActionReload () {
+void Actionfire () {
 		ReloadingComponent.enabled=false;
 		fireing = false;
 		enabled=false;

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class GlobalAmmo : MonoBehaviour
 {
     // Start is called before the first frame update
-    public static float CurrentAmmo = Mathf.Infinity;
+    public static float CurrentAmmo = 300;
 	public float InternalAmmo;
 	public GameObject AmmoDisplay;
 	public static float LoadedAmmo;
