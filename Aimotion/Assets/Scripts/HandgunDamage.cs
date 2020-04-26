@@ -14,7 +14,7 @@ public float TargetDistance;
 public float AllowedRange = 100.0f;
 
 void Update () {
-if ((GlobalAmmo.LoadedAmmo >= 1) & GunFire.fireing ){
+if ((GlobalAmmo.LoadedAmmo >= 1) & GunFire.fireing & HandgunRealoding.reload ){
  if(Input.GetButtonDown("Fire1")) {
   RaycastHit Shot;
   if (Physics.Raycast (transform.position, transform.TransformDirection(Vector3.forward), out Shot)) {
