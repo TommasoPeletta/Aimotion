@@ -17,9 +17,11 @@ public class EnemyScript : MonoBehaviour
  }
 
  void Update () {
-  if (EnemyHealth <= 0) {
+  if ((EnemyHealth <= 0) || (Spawner.checktime))  {
    Destroy(gameObject);
 	Spawner.targetSpawned -= 1;
-  }
+    Spawner.timespawn = Spawner.initialtime;
+            Spawner.checktime = false;
+        }
  }
 }
