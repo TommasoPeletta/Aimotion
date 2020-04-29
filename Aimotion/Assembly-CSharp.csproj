@@ -61,10 +61,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\audio_behaviour.cs" />
+    <Compile Include="Assets\Scripts\AudioSpawnPosition.cs" />
     <Compile Include="Assets\Scripts\camera_controller.cs" />
     <Compile Include="Assets\Scripts\CredToMenu.cs" />
     <Compile Include="Assets\Scripts\EnemyChild.cs" />
     <Compile Include="Assets\Scripts\EnemyScript.cs" />
+    <Compile Include="Assets\Scripts\GameTimer.cs" />
     <Compile Include="Assets\Scripts\GlobalAmmo.cs" />
     <Compile Include="Assets\Scripts\GlobalScore.cs" />
     <Compile Include="Assets\Scripts\GunFire.cs" />

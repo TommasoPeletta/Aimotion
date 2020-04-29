@@ -13,11 +13,16 @@ public class EnemyScript : MonoBehaviour
  public int EnemyHealth = 5;
 
  void DeductPoints (int DamageAmount) {
-  EnemyHealth -= DamageAmount;
- }
+        EnemyHealth -= DamageAmount;
+    }
 
  void Update () {
+  if (EnemyHealth <= 0)
+        {
+            Spawner.playsound = true;
+        }
   if ((EnemyHealth <= 0) || (Spawner.checktime))  {
+            
    Destroy(gameObject);
 	Spawner.targetSpawned -= 1;
     Spawner.timespawn = Spawner.initialtime;

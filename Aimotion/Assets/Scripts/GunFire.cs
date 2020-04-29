@@ -6,6 +6,7 @@ public class GunFire : MonoBehaviour
 {
 	public HandgunRealoding ReloadingComponent;
 	public static bool fireing = true;
+    public static int totalshots = 0;
     public bool info;
 
     // Start is called before the first frame update
@@ -21,6 +22,7 @@ public class GunFire : MonoBehaviour
         info = fireing;
 	if(GlobalAmmo.LoadedAmmo>=1){
         if(Input.GetButtonDown("Fire1")){
+                totalshots += 1;
 		AudioSource gunsound = GetComponent<AudioSource>();
 		gunsound.Play();
 		Animation gunshot = GetComponent<Animation>();
