@@ -5,26 +5,44 @@ using UnityEngine;
 public class audio_behaviour : MonoBehaviour
 {
 
-	public AudioSource _AudioSource1;
-	public AudioSource _AudioSource2;
+    public AudioSource[] AudioVector;
+    public int r = 0;
+    public int r_new;
 
     // Start is called before the first frame update
     void Start()
     {
-	_AudioSource1.Play();        
+        AudioVector[0].time = 4.0f;
+        AudioVector[r].Play();        
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (PauseGame.soundpause)
+        {
+            AudioVector[r].Pause();
+            PauseGame.soundpause = false;
+        }
+
+        if (PauseGame.soundresume)
+        {
+            AudioVector[r].UnPause();
+            PauseGame.soundresume = false;
+        }
+
         if (Input.GetKeyDown(KeyCode.S)){
-		if (_AudioSource1.isPlaying){
-			_AudioSource1.Stop();
-			_AudioSource2.Play();
-		}else{
-			_AudioSource2.Stop();
-			_AudioSource1.Play();
-		}
+            r_new = Random.Range(0, AudioVector.Length);
+            PlayAudio();
+            r = r_new;
 	}
+    }
+
+    void PlayAudio()
+    {
+        AudioVector[0].time = 4.0f;
+        AudioVector[r].Stop();
+        AudioVector[r_new].Play();
+
     }
 }

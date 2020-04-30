@@ -12,6 +12,7 @@ public class MainMenuOptions : MonoBehaviour
 
     public void Reset()
     {
+        Time.timeScale = 1;
         Spawner.targetSpawned = 0;
         Spawner.spawnPosition = new Vector3(-18.78f, 12.58f, 40.34f);
         Spawner.index = 0;

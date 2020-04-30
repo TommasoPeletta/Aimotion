@@ -9,7 +9,11 @@ public class PauseGame : MonoBehaviour
 {
 	
 	public bool Paused = false;
-	public GameObject ThePlayer;
+    public static bool soundpause = false;
+    public static bool soundresume = false;
+    public static bool soundpausetimer = false;
+    public static bool soundresumetimer = false;
+    public GameObject ThePlayer;
 	public GameObject PauseMenu;
     public GameObject Gun;
 
@@ -24,13 +28,16 @@ public class PauseGame : MonoBehaviour
 			PauseMenu.SetActive(true);
 			ThePlayer.GetComponent<FirstPersonController>().enabled = false;
             Gun.GetComponent<GunFire>().enabled = false;
+                soundpause = true;
+                soundpausetimer = true;
 
-           
-		}
+
+            }
 		else{
 			ThePlayer.GetComponent<FirstPersonController>().enabled = true;
             Gun.GetComponent<GunFire>().enabled = true;
-
+                soundresume = true;
+                soundresumetimer = true;
                 Paused = false;
 			PauseMenu.SetActive(false);
 			Time.timeScale = 1;
@@ -41,7 +48,8 @@ public class PauseGame : MonoBehaviour
 	public void UnpausedGame(){
 		ThePlayer.GetComponent<FirstPersonController>().enabled = true;
         Gun.GetComponent<GunFire>().enabled = true;
-
+        soundresume = true;
+        soundresumetimer = true;
         Paused = false;
 		PauseMenu.SetActive(false);
 		Time.timeScale = 1;
