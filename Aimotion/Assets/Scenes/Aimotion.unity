@@ -6720,6 +6720,11 @@ MonoBehaviour:
   - {fileID: 2100000, guid: b7610a14673f29b0cab40284911dc288, type: 2}
   - {fileID: 2100000, guid: 04faf64b2f17505ee81b1dc47d681763, type: 2}
   - {fileID: 2100000, guid: 3058547d4e9dc814482f2b80c5fc0ab4, type: 2}
+  - {fileID: 2100000, guid: b3e611887de5911449bb6787f371cf00, type: 2}
+  x: 0
+  state: 0
+  normalSky: 0
+  thunderSky: 0
 --- !u!4 &2024639982
 Transform:
   m_ObjectHideFlags: 0

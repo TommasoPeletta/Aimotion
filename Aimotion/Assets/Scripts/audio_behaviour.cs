@@ -6,7 +6,7 @@ public class audio_behaviour : MonoBehaviour
 {
 
     public AudioSource[] AudioVector;
-    public int r = 0;
+    public static int r = 0;
     public int r_new;
 
     // Start is called before the first frame update
