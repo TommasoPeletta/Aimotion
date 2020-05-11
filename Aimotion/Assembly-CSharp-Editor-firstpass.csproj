@@ -318,6 +318,12 @@
  <Reference Include="UnityEditor.Facebook.Extensions">
  <HintPath>/home/jonathanlo/Unity/Hub/Editor/2018.4.21f1/Editor/Data/PlaybackEngines/Facebook/UnityEditor.Facebook.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="NetMQ">
+ <HintPath>/home/jonathanlo/Documents/aimotion/Aimotion/Aimotion/Assets/Plugins/NetMQ.dll</HintPath>
+ </Reference>
+ <Reference Include="AsyncIO">
+ <HintPath>/home/jonathanlo/Documents/aimotion/Aimotion/Aimotion/Assets/Plugins/AsyncIO.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/home/jonathanlo/Documents/aimotion/Aimotion/Aimotion/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>

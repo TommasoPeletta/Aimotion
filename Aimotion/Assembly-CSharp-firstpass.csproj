@@ -320,6 +320,12 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>/home/jonathanlo/Unity/Hub/Editor/2018.4.21f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
+ <Reference Include="NetMQ">
+ <HintPath>/home/jonathanlo/Documents/aimotion/Aimotion/Aimotion/Assets/Plugins/NetMQ.dll</HintPath>
+ </Reference>
+ <Reference Include="AsyncIO">
+ <HintPath>/home/jonathanlo/Documents/aimotion/Aimotion/Aimotion/Assets/Plugins/AsyncIO.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
  <HintPath>/home/jonathanlo/Documents/aimotion/Aimotion/Aimotion/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>

@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class PauseGame : MonoBehaviour
 {
-	
+
 	public bool Paused = false;
     public static bool soundpause = false;
     public static bool soundresume = false;
@@ -43,7 +43,7 @@ public class PauseGame : MonoBehaviour
 			Time.timeScale = 1;
 		}
 	}
-        
+
     }
 	public void UnpausedGame(){
 		ThePlayer.GetComponent<FirstPersonController>().enabled = true;
@@ -56,12 +56,12 @@ public class PauseGame : MonoBehaviour
 	}
     public void Exit()
     {
-       
+
         Paused = false;
         PauseMenu.SetActive(false);
         Time.timeScale = 1;
         SceneManager.LoadScene(1);
-        
+
     }
 
 }

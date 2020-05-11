@@ -65,8 +65,11 @@
      <Compile Include="Assets\Scripts\GunFire.cs" />
      <Compile Include="Assets\Scripts\HandgunDamage.cs" />
      <Compile Include="Assets\Scripts\HandgunRealoding.cs" />
+     <Compile Include="Assets\Scripts\HelloClient.cs" />
+     <Compile Include="Assets\Scripts\HelloRequester.cs" />
      <Compile Include="Assets\Scripts\MainMenuOptions.cs" />
      <Compile Include="Assets\Scripts\PauseGame.cs" />
+     <Compile Include="Assets\Scripts\RunAbleThread.cs" />
      <Compile Include="Assets\Scripts\sky_behaviour.cs" />
      <Compile Include="Assets\Scripts\Spawner.cs" />
      <Compile Include="Assets\Scripts\SplashToMenu.cs" />
@@ -290,6 +293,12 @@
  </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>/home/jonathanlo/Unity/Hub/Editor/2018.4.21f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="NetMQ">
+ <HintPath>/home/jonathanlo/Documents/aimotion/Aimotion/Aimotion/Assets/Plugins/NetMQ.dll</HintPath>
+ </Reference>
+ <Reference Include="AsyncIO">
+ <HintPath>/home/jonathanlo/Documents/aimotion/Aimotion/Aimotion/Assets/Plugins/AsyncIO.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
  <HintPath>/home/jonathanlo/Documents/aimotion/Aimotion/Aimotion/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
