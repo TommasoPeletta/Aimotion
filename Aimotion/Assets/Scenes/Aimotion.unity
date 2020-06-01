@@ -3139,7 +3139,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 409ed4e80d1f81dfc8b5742313043848, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.52
+  m_Volume: 0.057
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -3299,8 +3299,8 @@ MonoBehaviour:
   bpmText: {fileID: 1335907961}
   levelText: {fileID: 1801061184}
   bpminfo: 0
-  time5: 10
-  time15: 15
+  time5: 5
+  time15: 10
   bpmavarage: 0
   count: 0
   levelinfo: 0
@@ -6793,7 +6793,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: dba7ecb1d32e0908b900bd8966c3d420, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.51
+  m_Volume: 0.11
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -7523,7 +7523,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 8c458777597a67d15814d028c4ff9750, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.48
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -7650,7 +7650,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 409ed4e80d1f81dfc8b5742313043848, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.51
+  m_Volume: 0.057
   m_Pitch: 1
   Loop: 1
   Mute: 0

@@ -12,6 +12,10 @@ public class GlobalAmmo : MonoBehaviour
 	public static float LoadedAmmo = 200;
 	public float InternalLoaded;
 	public GameObject LoadedDisplay;
+    void Start()
+	{
+		LoadedAmmo = 200;
+	}
     void Update()
     {
     InternalAmmo = CurrentAmmo;

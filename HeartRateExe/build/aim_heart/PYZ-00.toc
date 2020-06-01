@@ -1,4 +1,4 @@
-('C:\\Users\\Tommaso\\Desktop\\buildpy\\build\\aim_heart\\PYZ-00.pyz',
+('C:\\Users\\Tommaso\\Desktop\\Aimotion-master\\Heart_rate\\build\\aim_heart\\PYZ-00.pyz',
  [('multiprocessing.popen_fork',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\multiprocessing\\popen_fork.py',
@@ -655,25 +655,37 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\site-packages\\pkg_resources\\__init__.py',
    'PYMODULE'),
+  ('pkg_resources._vendor.packaging',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
   ('pkg_resources._vendor.appdirs',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.requirements',
+  ('pkg_resources._vendor.packaging.markers',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
+   'studio\\shared\\python36_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.version',
+  ('pkg_resources._vendor.six',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   'studio\\shared\\python36_64\\lib\\site-packages\\pkg_resources\\_vendor\\six.py',
    'PYMODULE'),
   ('pkg_resources._vendor.packaging.utils',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging',
+  ('pkg_resources._vendor.packaging._structures',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'studio\\shared\\python36_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.__about__',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
    'PYMODULE'),
   ('pkg_resources._vendor.pyparsing',
    'c:\\program files (x86)\\microsoft visual '
@@ -703,33 +715,21 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\ctypes\\macholib\\framework.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging._structures',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.specifiers',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.six',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\site-packages\\pkg_resources\\_vendor\\six.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.markers',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.__about__',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
-   'PYMODULE'),
   ('pkg_resources._vendor.packaging._compat',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
    'PYMODULE'),
-  ('pkg_resources._vendor',
+  ('pkg_resources._vendor.packaging.version',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
+   'studio\\shared\\python36_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.requirements',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.specifiers',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
    'PYMODULE'),
   ('sysconfig',
    'c:\\program files (x86)\\microsoft visual '
@@ -1007,8 +1007,12 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\site-packages\\PyQt5\\uic\\Compiler\\__init__.py',
    'PYMODULE'),
-  ('webcam', 'C:\\Users\\Tommaso\\Desktop\\buildpy\\webcam.py', 'PYMODULE'),
-  ('process', 'C:\\Users\\Tommaso\\Desktop\\buildpy\\process.py', 'PYMODULE'),
+  ('webcam',
+   'C:\\Users\\Tommaso\\Desktop\\Aimotion-master\\Heart_rate\\webcam.py',
+   'PYMODULE'),
+  ('process',
+   'C:\\Users\\Tommaso\\Desktop\\Aimotion-master\\Heart_rate\\process.py',
+   'PYMODULE'),
   ('scipy.signal',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\site-packages\\scipy\\signal\\__init__.py',
@@ -1241,45 +1245,29 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\site-packages\\setuptools\\__init__.py',
    'PYMODULE'),
-  ('setuptools._vendor.six',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\site-packages\\setuptools\\_vendor\\six.py',
-   'PYMODULE'),
   ('setuptools._vendor.packaging.markers',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
-   'PYMODULE'),
-  ('setuptools._vendor',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\site-packages\\setuptools\\_vendor\\__init__.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging._structures',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.requirements',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.version',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.utils',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.specifiers',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
    'PYMODULE'),
   ('setuptools._vendor.packaging._compat',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_compat.py',
    'PYMODULE'),
-  ('setuptools._vendor.pyparsing',
+  ('setuptools._vendor.packaging.version',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\site-packages\\setuptools\\_vendor\\pyparsing.py',
+   'studio\\shared\\python36_64\\lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._structures',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.utils',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('setuptools._vendor.six',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\site-packages\\setuptools\\_vendor\\six.py',
    'PYMODULE'),
   ('setuptools._vendor.packaging.__about__',
    'c:\\program files (x86)\\microsoft visual '
@@ -1288,6 +1276,22 @@
   ('setuptools._vendor.packaging',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\site-packages\\setuptools\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.requirements',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('setuptools._vendor.pyparsing',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\site-packages\\setuptools\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.specifiers',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
    'PYMODULE'),
   ('setuptools.msvc',
    'c:\\program files (x86)\\microsoft visual '
@@ -2918,7 +2922,7 @@
    'studio\\shared\\python36_64\\lib\\site-packages\\scipy\\_lib\\deprecation.py',
    'PYMODULE'),
   ('face_detection',
-   'C:\\Users\\Tommaso\\Desktop\\buildpy\\face_detection.py',
+   'C:\\Users\\Tommaso\\Desktop\\Aimotion-master\\Heart_rate\\face_detection.py',
    'PYMODULE'),
   ('imutils.face_utils',
    'c:\\program files (x86)\\microsoft visual '
@@ -2952,13 +2956,17 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\site-packages\\zmq\\__init__.py',
    'PYMODULE'),
-  ('zmq.backend.select',
+  ('zmq.backend.cffi',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\site-packages\\zmq\\backend\\select.py',
+   'studio\\shared\\python36_64\\lib\\site-packages\\zmq\\backend\\cffi\\__init__.py',
    'PYMODULE'),
-  ('zmq.utils.sixcerpt',
+  ('zmq.backend.cffi._cffi',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\site-packages\\zmq\\utils\\sixcerpt.py',
+   'studio\\shared\\python36_64\\lib\\site-packages\\zmq\\backend\\cffi\\_cffi.py',
+   'PYMODULE'),
+  ('zmq.utils.constant_names',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\site-packages\\zmq\\utils\\constant_names.py',
    'PYMODULE'),
   ('zmq.utils',
    'c:\\program files (x86)\\microsoft visual '
@@ -2971,22 +2979,6 @@
   ('zmq.utils.strtypes',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\site-packages\\zmq\\utils\\strtypes.py',
-   'PYMODULE'),
-  ('zmq.backend.cython',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\site-packages\\zmq\\backend\\cython\\__init__.py',
-   'PYMODULE'),
-  ('zmq.backend.cffi',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\site-packages\\zmq\\backend\\cffi\\__init__.py',
-   'PYMODULE'),
-  ('zmq.backend.cffi._cffi',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\site-packages\\zmq\\backend\\cffi\\_cffi.py',
-   'PYMODULE'),
-  ('zmq.utils.constant_names',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\site-packages\\zmq\\utils\\constant_names.py',
    'PYMODULE'),
   ('json',
    'c:\\program files (x86)\\microsoft visual '
@@ -3043,6 +3035,18 @@
   ('zmq.backend.cffi.constants',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\site-packages\\zmq\\backend\\cffi\\constants.py',
+   'PYMODULE'),
+  ('zmq.backend.cython',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\site-packages\\zmq\\backend\\cython\\__init__.py',
+   'PYMODULE'),
+  ('zmq.backend.select',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\site-packages\\zmq\\backend\\select.py',
+   'PYMODULE'),
+  ('zmq.utils.sixcerpt',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\site-packages\\zmq\\utils\\sixcerpt.py',
    'PYMODULE'),
   ('zmq.utils.garbage',
    'c:\\program files (x86)\\microsoft visual '
@@ -3108,11 +3112,15 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\site-packages\\zmq\\backend\\__init__.py',
    'PYMODULE'),
-  ('GUI', 'C:\\Users\\Tommaso\\Desktop\\buildpy\\GUI.py', 'PYMODULE'),
-  ('interface',
-   'C:\\Users\\Tommaso\\Desktop\\buildpy\\interface.py',
+  ('GUI',
+   'C:\\Users\\Tommaso\\Desktop\\Aimotion-master\\Heart_rate\\GUI.py',
    'PYMODULE'),
-  ('video', 'C:\\Users\\Tommaso\\Desktop\\buildpy\\video.py', 'PYMODULE'),
+  ('interface',
+   'C:\\Users\\Tommaso\\Desktop\\Aimotion-master\\Heart_rate\\interface.py',
+   'PYMODULE'),
+  ('video',
+   'C:\\Users\\Tommaso\\Desktop\\Aimotion-master\\Heart_rate\\video.py',
+   'PYMODULE'),
   ('pyqtgraph',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\site-packages\\pyqtgraph\\__init__.py',

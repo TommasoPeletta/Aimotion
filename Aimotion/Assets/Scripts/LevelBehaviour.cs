@@ -11,8 +11,8 @@ public class LevelBehaviour : MonoBehaviour
     public Text levelText;
     public float bpminfo;
     public static int level;
-    public float time5 = 10.0f;
-    public float time15 = 15.0f;
+    public float time5 = 5.0f;
+    public float time15 = 10.0f;
     public float bpmavarage = 0.0f;
     public int count = 0;
     public int levelinfo = 0;
@@ -44,14 +44,14 @@ public class LevelBehaviour : MonoBehaviour
             {
                 bpmavarage = bpmavarage / count;
                 count = 0;
-                if (bpmavarage < MainMenuOptions.bpm0 * 1.2)
+                if (bpmavarage < MainMenuOptions.bpm0*1.02)
                 {
                     if (level < 4)
                     {
                         level += 1;
                     }
                 }
-                else if (bpmavarage >= MainMenuOptions.bpm0 * 1.4)
+                else if (bpmavarage >= MainMenuOptions.bpm0*1.02)
                 {
                     if (level > 0)
                     {
@@ -60,8 +60,8 @@ public class LevelBehaviour : MonoBehaviour
                 }
                 MainMenuOptions.bpm0 = bpmavarage;
                 bpmavarage = 0.0f;
-                time5 = 10.0f;
-                time15 = 15.0f;
+                time5 = 5.0f;
+                time15 = 10.0f;
                 lvlavarage += level;
                 countlvl += 1;
             }
